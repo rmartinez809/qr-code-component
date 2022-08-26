@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    background-color: #D5E1EF;
+}
+
+.card {
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+.card img {
+    width: 290px;
+    height: 290px;
+}
+
+.radius {border-radius: 10px;}
