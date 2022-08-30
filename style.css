@@ -1,4 +1,6 @@
 body {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +17,6 @@ body {
     align-items: center;
     background-color: #FFFFFF;
     padding: 15px;
-
 }
 
 .radius {border-radius: 10px;}
