@@ -14,29 +14,35 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-    padding: 15px;
+    padding: 1rem;
+    width: min-content
 }
 
-.radius {border-radius: 10px;}
+.radius {border-radius: 0.625rem;}
 
 .card img {
-    width: 290px;
-    height: 290px;
+    width: 18.125rem;
+    height: 18.125rem;
+    margin-bottom: 0.5rem;
 }
 
-.card-content {
-    width: min-content;
-}
-
-.card-header {
+h1 {
     text-align: center;
-    font-size: 10px;
+    font-size: 1.25rem;
+    color: #1F2F49;
+    margin-bottom: 0;
 }
 
-.card-body {
-    font-size: 15px;
+p {
+    font-size: 0.938rem;
     text-align: center;
     color: #737375;
+    margin-bottom: 1rem;
+}
+
+.padding {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 .shadow {
